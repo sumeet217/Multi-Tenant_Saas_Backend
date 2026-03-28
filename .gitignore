@@ -1,0 +1,52 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+venv/
+env/
+ENV/
+
+#  Environment Variables
+.env
+.env.*
+
+# 🔥  Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+#  Migrations (optional)
+# Uncomment if you DON'T want migrations
+# */migrations/*
+# !*/migrations/__init__.py
+
+#  VS Code
+.vscode/
+
+#  MacOS
+.DS_Store
+
+#  Docker
+*.pid
+*.sock
+*.log
+docker-compose.override.yml
+
+#  Coverage / Testing
+htmlcov/
+.coverage
+.cache
+pytest_cache/
+
+#  Misc
+*.swp
+*.swo
+
+#  Secrets (VERY IMPORTANT 🚨)
+*.pem
+*.key
