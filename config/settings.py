@@ -68,6 +68,8 @@ TENANT_DOMAIN_MODEL = "tenants.Domain"
 
 
 TENANT_APPS = [
+    "django.contrib.contenttypes",
+    "django.contrib.auth",
     "rest_framework",
     "accounts",
     "core",
