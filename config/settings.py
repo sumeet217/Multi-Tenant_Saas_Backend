@@ -36,12 +36,7 @@ ALLOWED_HOSTS = [
     "tenant1.localhost",
 ]
 
-
-
-
 # Application definition
-
-
 
 SHARED_APPS = [
     "django_tenants",   # MUST be first
@@ -61,11 +56,8 @@ SHARED_APPS = [
     "audit",
 ]
 
-
-#  ADD THESE LINES HERE
 TENANT_MODEL = "tenants.Client"
 TENANT_DOMAIN_MODEL = "tenants.Domain"
-
 
 TENANT_APPS = [
     "django.contrib.contenttypes",
@@ -128,13 +120,9 @@ DATABASES = {
     }
 }
 
-
 DATABASE_ROUTERS = (
     "django_tenants.routers.TenantSyncRouter",
 )
-
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
