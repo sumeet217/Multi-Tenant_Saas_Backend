@@ -1,6 +1,6 @@
-# 🛡️ Secure Multi-Tenant SaaS Backend
+# Secure Multi-Tenant SaaS Backend
 
-## 📌 Overview
+## Overview
 
 A secure multi-tenant SaaS backend built using **Django 6.0** and **Django REST Framework**.
 This project demonstrates schema-based tenant isolation, JWT authentication, role-based access control (RBAC), and secure REST APIs.
@@ -8,7 +8,7 @@ Each tenant operates within an isolated database schema ensuring zero data leaka
 
 ---
 
-## 🚀 Features
+## Features
 
 - Schema-based multi-tenancy using **django-tenants**
 - JWT authentication with **SimpleJWT**
@@ -22,7 +22,7 @@ Each tenant operates within an isolated database schema ensuring zero data leaka
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Technology              | Purpose            |
 | ----------------------- | ------------------ |
@@ -36,7 +36,7 @@ Each tenant operates within an isolated database schema ensuring zero data leaka
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 saas-backend/
@@ -54,7 +54,7 @@ saas-backend/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -141,7 +141,7 @@ python manage.py runserver
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 ### Obtain JWT Token
 
@@ -189,7 +189,7 @@ Authorization: Bearer <ACCESS_TOKEN>
 
 ---
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### Auth & Core
 
@@ -219,7 +219,7 @@ Authorization: Bearer <ACCESS_TOKEN>
 
 ---
 
-## 🐳 Docker Setup
+## Docker Setup
 
 Run the entire stack with Docker Compose:
 
@@ -234,7 +234,7 @@ This starts:
 
 ---
 
-## 🔑 RBAC Roles
+## RBAC Roles
 
 | Role      | Permissions                               |
 | --------- | ----------------------------------------- |
@@ -245,7 +245,7 @@ This starts:
 
 ---
 
-## 🧠 Key Concepts Implemented
+## Key Concepts Implemented
 
 - Multi-tenant architecture with PostgreSQL schema isolation
 - JWT-based stateless authentication
